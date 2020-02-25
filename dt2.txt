@@ -1,0 +1,9 @@
+total 32
+-rw-r--r-- 1 root root 11 Feb 25 16:33 something10.txt
+-rw-r--r-- 1 root root  8 Feb 25 16:33 test9.txt
+-rw-r--r-- 1 root root  8 Feb 25 16:33 something8.txt
+-rw-r--r-- 1 root root  9 Feb 25 16:33 word7.txt
+-rw-r--r-- 1 root root  8 Feb 25 16:33 something5.txt
+-rw-r--r-- 1 root root 10 Feb 25 16:33 something4.txt
+-rw-r--r-- 1 root root 11 Feb 25 16:33 word3.txt
+-rw-r--r-- 1 root root 14 Feb 25 16:33 test1.txt

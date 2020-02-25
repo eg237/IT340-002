@@ -1,0 +1,244 @@
+    1  ls
+    2  mkdir Lab1
+    3  ls
+    4  cd dir
+    5  ls
+    6  mv something10.txt
+    7  mv --help
+    8  mv something10.txt ~
+    9  sudo mv something10.txt ~
+   10  ls
+   11  cd .
+   12  cd ..
+   13  ls
+   14  sudo mv something10.txt ~/Lab1
+   15  ls
+   16  cd Lab1
+   17  ls
+   18  cd ..
+   19  cd dir
+   20  ls
+   21  mv something4.txt ~/Lab1
+   22  sudo mv something4.txt ~/Lab1
+   23  ls
+   24  sudo mv something5.txt ~/Lab1
+   25  sudo mv something8.txt ~/Lab1
+   26  ls
+   27  cd ..
+   28  ls
+   29  cd Lab1
+   30  ls
+   31  cd /etc
+   32  ls
+   33  cat magic .mine
+   34  cd apport
+   35  ls
+   36  cd ..
+   37  ls
+   38  cd apm
+   39  ls
+   40  cd event.d
+   41  ls
+   42  cd ...
+   43  cd ..
+   44  ls
+   45  cd ..
+   46  cd usr/share
+   47  ls
+   48  cd doc
+   49  ls
+   50  cd unzip
+   51  ls
+   52  cd ..
+   53  ls
+   54  cd zip
+   55  ;s
+   56  ls
+   57  cd ../..
+   58  ls
+   59  cd ..
+   60  ls
+   61  cd bin
+   62  ls
+   63  cd ..
+   64  ls
+   65  cd games
+   66  ls
+   67  ls -lart
+   68  cd ..
+   69  cd include
+   70  ls
+   71  cd arpa
+   72  ls
+   73  cd ..
+   74  cd asm-generic
+   75  ls
+   76  cd ..
+   77  cd btrfs
+   78  ls
+   79  cd drm
+   80  cd ..
+   81  cd drm
+   82  ls
+   83  cd..
+   84  cd ..
+   85  ls
+   86  cd ../..
+   87  ls
+   88  cd home
+   89  ls
+   90  cd vagrant
+   91  ls
+   92  cd ..
+   93  ls
+   94  cd ..
+   95  ls
+   96  find /bin -name *.txt
+   97  ls
+   98  find --help
+   99  find /bin -name *.txt -print
+  100  ls
+  101  find /bin -name *.txt -print0
+  102  find /home-name *.txt -print0
+  103  find /home -name *.txt -print0
+  104  find /bin -name *.txt -print0
+  105  find /etc -name *.txt -print0
+  106  sudo find /etc -name *.txt -print0
+  107  ls
+  108  sudo find /media -name *.txt -print0
+  109  ls
+  110  sudo find /dev -name *.txt -print0
+  111  sudo find /boot -name *.txt -print0
+  112  sudo find /lib64 -name *.txt -print0
+  113  sudo find /lost+found -name *.txt -print0
+  114  sudo find /mnt -name *.txt -print0
+  115  sudo find /proc -name *.txt -print0
+  116  sudo find /opt -name *.txt -print0
+  117  sudo find /root -name *.txt -print0
+  118  sudo find /run -name *.txt -print0
+  119  sudo find /sbin -name *.txt -print0
+  120  sudo find /snap -name *.txt -print0
+  121  sudo find /srv -name *.txt -print0
+  122  sudo find /sys -name *.txt -print0
+  123  sudo find /usr -name *.txt -print0
+  124  clear
+  125  ls
+  126  sudo find /var -name *.txt -print0
+  127  sudo find /vagrant -name *.txt -print0
+  128  sudo find /tmp -name *.txt -print0
+  129  sudo find /lib -name *.txt -print0
+  130  cd etc
+  131  ls
+  132  cd labsample
+  133  ls
+  134  cat test1.txt
+  135  mv test1.txt ~/Lab1
+  136  sudo mv test1.txt ~/Lab1
+  137  ls
+  138  sudo mv test9.txt ~/Lab1
+  139  ls
+  140  cd ../..
+  141  ls
+  142  cd home/vagrant
+  143  ls
+  144  cd Lab1
+  145  ls
+  146  cd../../..
+  147  cd../..
+  148  cd ../..
+  149  cd ..
+  150  ls
+  151  cd media/sample
+  152  ls
+  153  sudo mv word3.txt ~/Lab1
+  154  sudo mv word7.txt ~/Lab1
+  155  ls
+  156  cd ../../..
+  157  ls
+  158  cd home/vagrant/Lab1
+  159  ls
+  160  cd ../../..
+  161  ls
+  162  cd boot/grub
+  163  ls
+  164  cat gfxblacklist.txt
+  165  clear
+  166  cd ../../..
+  167  ls
+  168  cd home/vagrant/Lab1
+  169  ls
+  170  SORT
+  171  sort
+  172  ls
+  173  ls -lart
+  174  cat test1.txt
+  175  ls
+  176  ls --
+  177  ls --help
+  178  ls -c
+  179  ls
+  180  ls -lt
+  181  ls
+  182  ls -l
+  183  ls -lt >dt.txt
+  184  ls
+  185  cat dt.txt
+  186  mv dt.txt ~
+  187  ls
+  188  cd ..
+  189  ls
+  190  cat dt.txt
+  191  ls -lt /home/vagrant/Lab1 > /home/vagrant dt2.txt
+  192  ls -lt /Lab1 > /home/vagrant dt2.txt
+  193  ls -lt Lab1 > /home/vagrant dt2.txt
+  194  ls -lt Lab1 > dt2.txt
+  195  ls
+  196  cat dt2.txt
+  197  rm dt.txt
+  198  ls
+  199  nano Labcat.txt
+  200  ls
+  201  cd Lab1
+  202  ls
+  203  cat something10.txt
+  204  cat test9.txt
+  205  cat something8.txt
+  206  cat word7.txt
+  207  cat something5.txt
+  208  cat something4.txt
+  209  cat word3.txt
+  210  cat test1.txt
+  211  cd ..
+  212  cd Lab1
+  213  nano Labcat.txt
+  214  ls
+  215  cat Labcat.txt
+  216  cd ../..
+  217  cd ..
+  218  ls
+  219  cd vmlinuz
+  220  history
+  221  sudo find /bin -name *.txt -print0
+  222  ls
+  223  sudo find /boot -name *.txt -print0
+  224  sudo find /dev -name *.txt -print0
+  225  sudo find /etc -name *.txt -print0
+  226  sudo find /home -name *.txt -print0
+  227  sudo find /usr -name *.txt -print0
+  228  cd usr/local/lab
+  229  ls
+  230  mv file2.txt ~Lab1
+  231  sudo mv file2.txt ~Lab1
+  232  sudo mv file6.txt ~Lab1
+  233  ls
+  234  sudo mv file6.txt ~ Lab1
+  235  ls
+  236  cat ~lab1
+  237  cat ~Lab1
+  238  cd ../..
+  239  cd ..
+  240  ls
+  241  cd home/vagrant/Lab1
+  242  ls
+  243  nano Labcat.txt
+  244  history > history.txt
