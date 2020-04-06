@@ -1,14 +1,48 @@
-    1  sudo apt-get install postfix mailutils -y
-    2  sudo nano /etc/postfix/sasl_passwd
-    3  sudo chmod 600 /etc/postfix/sasl_passwd
-    4  sudo nano /etc/postfix/main.cf
-    5  sudo postmap /etc/postfix/sasl_passwd
-    6  sudo nano /etc/aliases
-    7  sudo newaliases
-    8  sudo ufw allow 587
-    9  sudo systemctl restart postfix
-   10  echo "Postfix email" | mail -s "Email from `hostname`" root
-   11  echo "Postfix email" | mail -s "Email from `hostname`" eddy111696@gmail.com
-   12  echo "Postfix email" | mail -s "Email from `hostname`" root
-   13  echo "Postfix email" | mail -s "Email from `hostname`" eddygomez12345@hotmail.com
-   14  history>myhistory.txt
+    1  sudo apt install -y bind9 bind9utils bind9-doc dnsutils
+    2  sudo nano /etc/bind/named.conf.local
+    3  ipconfig
+    4  ifconfig
+    5  sudo nano /etc/bind/named.conf.local
+    6  sudo cp /etc/bind/db.local /etc/bind/forward.dnslab.local.db
+    7  sudo nano /etc/bind/forward.dnslab.local.db
+    8  sudo cp /etc/bind/db.127 /etc/bind/reverse.dnslab.local.db
+    9  sudo nano /etc/bind/reverse.dnslab.local.db
+   10  sudo named-checkconf
+   11  sudo nano /etc/bind/reverse.dnslab.local.db
+   12  sudo nano /etc/bind/named.conf.local
+   13  sudo named-checkconf
+   14  sudo nano /etc/bind/named.conf.local
+   15  sudo named-checkconf
+   16  sudo nano /etc/bind/named.conf.local
+   17  sudo named-checkconf
+   18  sudo nano /etc/bind/named.conf.local
+   19  sudo named-checkconf
+   20  sudo nano /etc/bind/named.conf.local
+   21  sudo named-checkconf
+   22  sudo nano /etc/bind/named.conf.local
+   23  sudo named-checkconf
+   24  sudo nano /etc/bind/named.conf.local
+   25  sudo named-checkconf
+   26  sudo nano /etc/bind/named.conf.local
+   27  sudo named-checkzone dnslab.local /etc/bind/forward.dnslab.local.db
+   28  sudo nano /etc/bind/named.conf.local
+   29  sudo named-checkzone dnslab.local /etc/bind/forward.dnslab.local.db
+   30  sudo nano /etc/bind/forward.dnslab.local.db
+   31  named-checkzone 0.168.192.in-addr.arpa /etc/bind/reverse.dnslab.local.db
+   32  sudo systemctl restart bind9
+   33  sudo systemctl enable bind9
+   34  sudo systemctl status bind9
+   35  sudo nano /etc/resolv.conf
+   36  dig www.dnslab.local
+   37  dig -x 192.168.0.100
+   38  ls
+   39  ls lart
+   40  cd ..
+   41  ls
+   42  cd vagrant
+   43  ls
+   44  history > myhistory.txt
+   45  ls
+   46  nano myhistory.txt
+   47  history
+   48  history > myhistory.txt
